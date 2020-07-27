@@ -13,7 +13,7 @@ namespace CommonLibraryMyApp.StorageAzure
 
         private static volatile ConnectionManagerAzureStorage instance;
         private static object syncRoot = new Object();
-        private string ConnectionString => "DefaultEndpointsProtocol=https;AccountName=dasugollam;AccountKey=JIOyGwxCjj7Jrg53Fo5brZDsp9KoO1QRzzUFlvBO+TkmOWCCcir+otlq7Nq637lsDfNcAkFtvESNBtJtlR5DQg==;EndpointSuffix=core.windows.net";
+        private string ConnectionString => "DefaultEndpointsProtocol=https;AccountName=dasugollam;AccountKey=***********==;EndpointSuffix=core.windows.net";
         private string ImagesContainerName => @"fotos-dani-1985-2003";
 
 
